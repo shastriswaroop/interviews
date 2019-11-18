@@ -5,5 +5,8 @@ package shastri.swaroop.harman;
 // abcd -->abcd, abdc....
 
 public class StringPermutations {
+	public static void main(String args[]) {
+		System.out.println("HELLO");
+	}
 
 }
