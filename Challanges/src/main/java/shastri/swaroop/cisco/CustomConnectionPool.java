@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+// https://www.baeldung.com/java-connection-pooling
 public class CustomConnectionPool implements ConnectionPool {
 	String url;
 	String user;
