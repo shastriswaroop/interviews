@@ -4,6 +4,11 @@ public class Employee {
 
 	int salary;
 	int age;
+	
+	Employee(int age, int salary){
+		this.age = age;
+		this.salary = salary;
+	}
 	public int getSalary() {
 		return salary;
 	}
