@@ -1,6 +1,6 @@
 package shastri.swaroop.harman;
 
-public class Employee {
+public class Employee implements Comparable<Employee>{
 
 	int salary;
 	int age;
@@ -21,6 +21,14 @@ public class Employee {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
-	
+	public int compareTo(Employee emp) {
+		// TODO Auto-generated method stub
+		int ageDiff = this.age - emp.getAge();
+		
+		if(ageDiff > 0)
+			return 1;
+		if(ageDiff<0)
+			return -1;
+		return 0;
+	}	
 }

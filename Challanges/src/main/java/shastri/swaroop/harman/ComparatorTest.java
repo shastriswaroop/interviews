@@ -18,6 +18,12 @@ public class ComparatorTest {
 		employees.add(new Employee(28,5500));
 		employees.add(new Employee(21,4500));
 
+
+		Collections.sort(employees);
+		for(Employee emp:employees) {
+			System.out.println(emp.age);
+		}
+
 		Collections.sort(employees, new EmpByAgeComparator());
 		for(Employee emp:employees) {
 			System.out.println(emp.age);
