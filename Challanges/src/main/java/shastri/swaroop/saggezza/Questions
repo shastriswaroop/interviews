@@ -1,0 +1,5 @@
+A class implements Serializable interface and then serializes its object into a flt file.
+Subsequently, the clas definition is altered and an attempt to de-serialize the object
+from the flat file.What would be the result of the attempt?
+
+
